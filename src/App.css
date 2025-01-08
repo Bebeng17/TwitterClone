@@ -1,0 +1,13 @@
+#root {
+  --twitter-color: #50b7f5;
+  --twitter-background: #e1e2e2;
+}
+
+.app{
+  display: flex;
+  height: 100vh;
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}

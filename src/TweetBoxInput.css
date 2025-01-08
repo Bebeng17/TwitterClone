@@ -1,0 +1,78 @@
+.tweetBoxInput{
+  display: flex;
+  flex: 1;
+  height: 213px;
+  /* border-bottom: solid 1px var(--twitter-background); */
+  padding-top: 4px;
+  box-sizing: border-box;
+  
+}
+.tweetBoxInput form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.tweetBoxInputTextarea__container {
+  display: flex;
+  flex: 0.65;
+  width: auto;
+  font-size: 16px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  overflow-y: hidden; 
+  resize: none;
+}
+.tweetBoxInputTextarea__container textarea{
+  width: 100%;
+  height: 120px;
+  border: none;
+  outline: none;
+  padding: 12px;
+  text-indent: -10px;
+}
+.tweetBoxInputButtons__container{
+  display: flex;
+  flex: 0.35;
+  width: auto;
+}
+
+/* .tweetBoxInput {
+  display: flex;
+  flex: 1;
+  border-bottom: solid 1px var(--twitter-background);
+  padding-top: 4px;
+  min-height: 150px;
+}
+
+.tweetBoxInput form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.tweetBoxInputTextarea__container {
+  display: flex;
+  width: 100%;
+}
+
+.tweetBoxInputTextarea__container textarea {
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+  max-height: 150px;
+  padding: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  resize: none;
+  overflow-y: hidden;
+  text-indent: 0;
+  box-sizing: border-box;
+}
+
+.tweetBoxInputButtons__container {
+  display: flex;
+  flex: 0.35;
+  border-right: solid 1px red;
+} */

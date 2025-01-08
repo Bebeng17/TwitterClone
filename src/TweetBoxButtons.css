@@ -1,0 +1,35 @@
+.tweetBoxContent__buttons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: var(--twitter-color);
+}
+.tweetBoxContent__whoCanReply{
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  flex: 0.4;
+}
+.tweetBoxContent__whoCanReply p {
+  font-size: 10px;
+  font-weight: bolder;
+}
+.tweetBoxContent__icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex: 0.6;
+  border-top: 0.1px solid var(--twitter-background);
+}
+.tweetBoxContent__postButton{
+  width: 65px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(163, 163, 163);
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+}

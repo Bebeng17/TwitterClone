@@ -1,0 +1,75 @@
+.tweet {
+  list-style-type: none;
+  border: 1px solid var(--twitter-background);
+  width: 100%;
+}
+.tweet__container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 15px;
+}
+.tweet__avatar{
+  display: flex;
+  margin-right: 5px;
+}
+.tweet__body{
+  display: flex;
+  flex-direction: column;
+  /* width: 90%; */
+}
+.tweet__text{
+}
+.tweet__text p {
+}
+.tweet__image{
+  border-radius: 25px;
+  margin: 10px 0;
+  
+}
+.tweet__image img {
+  border-radius: 25px;
+  max-width: 95%;
+}
+.tweet__footer{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.tweetIcons__excludeDownloadIcon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  margin-right: 15px;
+
+  align-items: baseline;
+
+}
+.commentIcon, .retweetIcon, .likeIcon, .viewIcon, .bookmarkIcon {
+  padding: 10px; /* Adjust the padding size to fit the icon */
+  border-radius: 50%; /* Makes the padding circular */
+  transition: all 0.3s ease; /* Optional: smooth transition */
+}
+.downloadIcon{
+  padding: 10px; /* Adjust the padding size to fit the icon */
+  border-radius: 50%; /* Makes the padding circular */
+  transition: all 0.3s ease; /* Optional: smooth transition */
+}
+
+.commentIcon:hover, 
+.retweetIcon:hover, 
+.likeIcon:hover, 
+.viewIcon:hover, 
+.bookmarkIcon:hover {
+  color: var(--twitter-color); /* Change color on hover (e.g., Twitter blue) */
+  background-color: #E1F5FE; /* Optional: Add a background color */
+  transform: scale(1.1); /* Optional: make it slightly larger */
+}
+.downloadIcon:hover{
+  color: var(--twitter-color); /* Change color on hover (e.g., Twitter blue) */
+  background-color: #E1F5FE; /* Optional: Add a background color */
+  transform: scale(1.1); /* Optional: make it slightly larger */
+}
+

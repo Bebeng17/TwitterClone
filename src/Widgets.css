@@ -1,0 +1,6 @@
+.widgets {
+  display: flex;
+  flex-direction: column;
+  flex: 0.336;
+  margin-left: 30px;
+}

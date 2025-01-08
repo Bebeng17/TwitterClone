@@ -1,0 +1,9 @@
+.tweetBox{
+  display: flex;
+  flex-direction: row;
+  padding-top: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 0.1px solid var(--twitter-background);
+  box-sizing: border-box;
+}
