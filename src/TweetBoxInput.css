@@ -1,7 +1,7 @@
 .tweetBoxInput{
   display: flex;
   flex: 1;
-  height: 213px;
+  height: 130px;
   /* border-bottom: solid 1px var(--twitter-background); */
   padding-top: 4px;
   box-sizing: border-box;

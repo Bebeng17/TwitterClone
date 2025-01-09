@@ -16,7 +16,7 @@ const Tweet = ({tweet}) => {
         <div className="tweet__container">
             <Avatar
             alt="Remy Sharp" 
-            src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png"
+            src="https://a.storyblok.com/f/191576/2400x1260/fd054dca6a/round_profile_picture_og_image.webp"
             className="tweet__avatar"
             sx={{ fontSize: 1 }} 
             />

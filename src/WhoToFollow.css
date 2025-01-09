@@ -1,0 +1,71 @@
+.whoToFollow{
+  height: 270px;
+  border: 1px solid var(--twitter-background);
+  margin-top: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.whoToFollow h2 {
+  font-size: 20px;
+  /* margin-bottom: 10px; */
+  padding: 10px 15px;
+
+}
+.whoToFollow__followSuggestions{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+.whoToFollow__followSuggestions li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px;
+
+}
+.whoToFollow__followSuggestions li:hover{
+  cursor: pointer;
+  background-color: var(--twitter-background);
+}
+.whoToFollow__profile{
+  display: flex;
+  flex-direction: row;
+}
+.whoToFollow__button{
+  width: 80px;
+  height: 32px;
+  border-radius: 15px;
+  background: black;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  border: none;
+}
+.whoToFollow__button:hover{
+  cursor: pointer;
+  background: rgb(65, 64, 64);
+}
+.whoToFollow__userName{
+  margin-left: 5px;
+}
+.whoToFollow__userName h3 {
+  font-size: medium;
+}
+.whoToFollow__userName p {
+  font-size: small;
+}
+.whoToFollow__showMore{
+  flex-grow: 1;
+  border-radius: 0 0 15px 15px;
+}
+.whoToFollow__showMore p{
+  padding: 10px 15px;
+  color: var(--twitter-color);
+}
+.whoToFollow__showMore:hover {
+cursor: pointer;
+background-color: var(--twitter-background);
+}
