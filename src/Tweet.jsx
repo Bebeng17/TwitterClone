@@ -1,12 +1,15 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import "./Tweet.css";
 import Avatar from '@mui/material/Avatar';
+import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComment, faRetweet, faHeart, faChartSimple, faBookmark, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { AppContext } from "./App";
 
 
 
 const Tweet = ({tweet}) => {
+  const {user, setUser} = useContext(AppContext);
 
   return (
     <li className="tweet">
@@ -19,7 +22,9 @@ const Tweet = ({tweet}) => {
             />
             <div className="tweet__body">
                 <div className="tweet__header">
-                  
+                    <h3 className='tweet__displayname'>{user.displayName || "Anonymous"}</h3>
+                    <VerifiedOutlinedIcon className='verifiedIcon' />
+                    <p className='tweet__username'>@{user.userName || "Anonymous"} .</p>
                 </div>
                 <div className="tweet__text">
                     <p>{tweet.content}</p>

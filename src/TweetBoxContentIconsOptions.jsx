@@ -11,12 +11,12 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 const TweetBoxContentIconsOptions = () => {
   return (
     <div className="tweetBoxContentIconsOptions">
-      <TweetBoxIconsOption Icon={InsertPhotoOutlinedIcon} sx={{ fontSize: 15 }} />
-      <TweetBoxIconsOption Icon={GifBoxOutlinedIcon}  />
-      <TweetBoxIconsOption Icon={OpenInNewOutlinedIcon} />
-      <TweetBoxIconsOption Icon={FormatListBulletedIcon}  />
-      <TweetBoxIconsOption Icon={EventIcon} />
-      <TweetBoxIconsOption Icon={LocationOnOutlinedIcon}  />
+      <TweetBoxIconsOption className="media" Icon={InsertPhotoOutlinedIcon} sx={{ fontSize: 15 }} />
+      <TweetBoxIconsOption className="gif" Icon={GifBoxOutlinedIcon}  />
+      <TweetBoxIconsOption className="grok" Icon={OpenInNewOutlinedIcon} />
+      <TweetBoxIconsOption className="poll" Icon={FormatListBulletedIcon}  />
+      <TweetBoxIconsOption className="schedule" Icon={EventIcon} />
+      <TweetBoxIconsOption className="location" Icon={LocationOnOutlinedIcon}  />
     </div>
   )
 };

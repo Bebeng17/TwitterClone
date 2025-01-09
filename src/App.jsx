@@ -9,14 +9,28 @@ export const AppContext = createContext();
 
 function App() {
   const [tweets, setTweets]= useState([]);
+  const [user, setUser] = useState([]);
     
     
     useEffect(() => {
       fetch("https://jsonplaceholder.org/posts")
         .then((response) => response.json())
         .then((data) => {
-          setTweets(data.slice(0, 5));  // Directly slice and update the state
+          setTweets(data.slice(2, 5));
         });
+    }, []);
+
+
+    useEffect(() => {
+      fetch("https://jsonplaceholder.org/users")
+        .then((response) => response.json())
+        .then((data) => {
+          setUser({
+            displayName: `${data[2].firstname} ${data[2].lastname}`, 
+            userName: data[2].login.username
+          });
+          
+        })
     }, []);
     
   
@@ -27,7 +41,7 @@ function App() {
   
 
   return (
-    <AppContext.Provider value={{ tweets, addTweet }}>
+    <AppContext.Provider value={{ tweets, addTweet, user, setUser }}>
       <div className="app">
         <Sidebar />
         <Feed />
