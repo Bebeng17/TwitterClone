@@ -4,7 +4,7 @@ import "./TweetBoxIconsOption.css";
 const TweetBoxIconsOption = ({ Icon }) => {
   return (
     <div className="tweet-box-icons-option">
-      <Icon sx={{ fontSize: 15 }} />
+      <Icon sx={{ fontSize: 20 }} />
     </div>
   );
 };

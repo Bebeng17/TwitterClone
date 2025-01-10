@@ -3,6 +3,8 @@
   flex-direction: column;
   flex: 0.58;
   border-right: solid 1px var(--twitter-background);
+  border-left: solid 1px var(--twitter-background);
+  height: fit-content;
 }
 .feed__header{
   display: flex;

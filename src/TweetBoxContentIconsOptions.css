@@ -2,15 +2,3 @@
   display: flex;
   flex-direction: row;
 }
-.tweetBoxContentIconsOptions .grok{
-  padding: 2px;
-  cursor: pointer;
-}
-/* .media, 
-.gif, 
-.grok, 
-.poll, 
-.schedule:hover{
-  color: var(--twitter-color);
-  background-color: red;
-}  */

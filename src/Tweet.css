@@ -1,7 +1,11 @@
 .tweet {
   list-style-type: none;
-  border: 1px solid var(--twitter-background);
+  border-bottom:  1px solid var(--twitter-background);;
   width: 100%;
+}
+.tweet:hover{
+  cursor: pointer;
+  background-color: var(--twitter-background);
 }
 .tweet__container{
   display: flex;
@@ -14,17 +18,31 @@
   display: flex;
   margin-right: 5px;
 }
+.tweet__avatar:hover{
+  cursor: pointer;
+  /* background-color: var(--twitter-background); */
+}
 .tweet__body{
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .tweet__header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tweetHeader__userdetails{
   display: flex;
   flex-direction: row;
 }
 .tweet__displayname{
   margin-right: 2px;
   font-size: medium;
+}
+.tweet__displayname:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 .verifiedIcon{
   color: var(--twitter-color);
@@ -33,10 +51,14 @@
 .tweet__username{
   color: rgb(144, 142, 142);
 }
-/* .tweet__text{
+.tweetHeader__moreIcon{
+  padding: 5px;
+  border-radius: 15px;
 }
-.tweet__text p {
-} */
+.tweetHeader__moreIcon:hover{
+  cursor: pointer;
+  background-color: rgb(201, 237, 250);
+}
 .tweet__image{
   border-radius: 25px;
   margin: 10px 0;

@@ -1,0 +1,53 @@
+.trends{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--twitter-background);
+  margin-top: 20px;
+  border-radius: 15px;
+  height: 470px;
+  justify-content: space-between;
+}
+.trends h3{
+  padding: 10px;
+}
+.trends__khloe{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.trendKhloe__image{
+ 
+}
+.trendKhloe__image img{
+  width: 60px;
+  height: auto;
+  border-radius: 15px;
+}
+.trends__lists{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.trendsLists__topic{
+  padding: 0 10px;
+}
+.trendsLists__topic:hover{
+  cursor: pointer;
+  background-color: var(--twitter-background);
+}
+.trendsListsTopic__header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.trends__showMore{
+  padding: 10px;
+  border-radius: 0 0 15px 15px;
+}
+.trends__showMore:hover{
+  cursor: pointer;
+  background-color: var(--twitter-background);
+}
+.trends__showMore p {
+  color: var(--twitter-color);
+}

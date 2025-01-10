@@ -1,3 +1,9 @@
 .tweet-box-icons-option{
   margin: 5px;
+  padding: 5px;
+  border-radius: 15px;
+}
+.tweet-box-icons-option:hover{
+  cursor: pointer;
+  background-color: rgb(211, 239, 250);
 }

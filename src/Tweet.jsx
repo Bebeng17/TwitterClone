@@ -2,6 +2,7 @@ import React, {useContext} from 'react';
 import "./Tweet.css";
 import Avatar from '@mui/material/Avatar';
 import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComment, faRetweet, faHeart, faChartSimple, faBookmark, faDownload } from '@fortawesome/free-solid-svg-icons';
 import { AppContext } from "./App";
@@ -22,12 +23,15 @@ const Tweet = ({tweet}) => {
             />
             <div className="tweet__body">
                 <div className="tweet__header">
-                    <h3 className='tweet__displayname'>{user.displayName || "Anonymous"}</h3>
-                    <VerifiedOutlinedIcon className='verifiedIcon' />
-                    <p className='tweet__username'>@{user.userName || "Anonymous"} .</p>
+                    <div className="tweetHeader__userdetails">
+                        <h3 className='tweet__displayname'>{user.displayName || "Anonymous"}</h3>
+                        <VerifiedOutlinedIcon className='verifiedIcon' />
+                        <p className='tweet__username'>@{user.userName || "Anonymous"} .</p>
+                    </div>
+                    <MoreHorizIcon className='tweetHeader__moreIcon' />
                 </div>
                 <div className="tweet__text">
-                    <p>{tweet.content}</p>
+                    <p>{tweet.title}</p>
                 </div>
                 <div className="tweet__image">
                     <img src={tweet.image} alt="Tweet Image" />

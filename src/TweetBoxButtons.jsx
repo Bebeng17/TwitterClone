@@ -7,12 +7,14 @@ const TweetBoxButtons = () => {
   return (
     <div className="tweetBoxContent__buttons">
         <div className="tweetBoxContent__whoCanReply">
-          <PublicIcon sx={{ fontSize: 13 }} />
-          <p>Everyone can Reply</p>
+            <div>
+                <PublicIcon sx={{ fontSize: 16 }} />
+                <p>Everyone can Reply</p>
+            </div>
         </div>
         <div className="tweetBoxContent__icons">
-          <TweetBoxContentIconsOptions />
-          <button type="submit" className="tweetBoxContent__postButton">Post</button>
+            <TweetBoxContentIconsOptions />
+            <button type="submit" className="tweetBoxContent__postButton">Post</button>
         </div>
     </div>
   )
