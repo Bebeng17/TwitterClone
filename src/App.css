@@ -1,6 +1,6 @@
 #root {
   --twitter-color: #1ba7f8;
-  --twitter-background: #edeaea;
+  --twitter-background: #f0eeee;
 }
 
 .app{
@@ -10,4 +10,6 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px;
+  /* background-color: black;
+  height: fit-content; */
 }

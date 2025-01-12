@@ -24,7 +24,7 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 10px 15px;
-
+  align-items: center;
 }
 .whoToFollow__followSuggestions li:hover{
   cursor: pointer;

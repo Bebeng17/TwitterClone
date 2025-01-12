@@ -17,7 +17,7 @@ const Tweet = ({tweet}) => {
         <div className="tweet__container">
             <Avatar
             alt="Remy Sharp" 
-            src="https://a.storyblok.com/f/191576/2400x1260/fd054dca6a/round_profile_picture_og_image.webp"
+            src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png"
             className="tweet__avatar"
             sx={{ fontSize: 1 }} 
             />
@@ -25,7 +25,9 @@ const Tweet = ({tweet}) => {
                 <div className="tweet__header">
                     <div className="tweetHeader__userdetails">
                         <h3 className='tweet__displayname'>{user.displayName || "Anonymous"}</h3>
-                        <VerifiedOutlinedIcon className='verifiedIcon' />
+                        <VerifiedOutlinedIcon
+                        sx={{ fontSize: 17 }}  
+                        className='verifiedIcon' />
                         <p className='tweet__username'>@{user.userName || "Anonymous"} .</p>
                     </div>
                     <MoreHorizIcon className='tweetHeader__moreIcon' />

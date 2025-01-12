@@ -3,7 +3,7 @@
   background-color: var(--twitter-background);
   height: 43px;
   border-radius: 20px;
-  margin-top: 5px;
+  margin-top: 10px;
   transition: background-color 0.3s ease, border 0.3s ease;
 }
 .searchBox:focus-within{
@@ -14,8 +14,8 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 100%;
   align-items: center;
+  height: 43px;
 }
 .searchBox__searchIcon {
   display: flex;

@@ -10,7 +10,7 @@ const Trends = () => {
             <div className="trendKhloe__image">
                 <img src="https://ic.pics.livejournal.com/chitatel_zhuzhu/62362584/11144893/11144893_original.jpg" alt="Chloe" />
             </div>
-            <span>
+            <span className="trendKhloe__text">
                 <h4>Khloe in Wonder Land</h4>
                 <p>LIVE</p>
             </span>
@@ -19,28 +19,32 @@ const Trends = () => {
                 <li className="trendsLists__topic" >
                   <div className="trendsListsTopic__header">
                     <p>Trending in Ghana</p>
-                    <MoreHorizIcon />
+                    <MoreHorizIcon 
+                    sx={{ fontSize: 16 }} />
                   </div>
                   <h5>Kennedy Agyapong</h5>
                 </li>
                 <li className="trendsLists__topic" >
                   <div className="trendsListsTopic__header">
                   <p>Trending in Ghana</p>
-                    <MoreHorizIcon />
+                    <MoreHorizIcon 
+                    sx={{ fontSize: 16 }} />
                   </div>
                   <h5>Overpriced</h5>
                 </li>
                 <li className="trendsLists__topic" >
                   <div className="trendsListsTopic__header">
                   <p>Trending in Ghana</p>
-                    <MoreHorizIcon />
+                    <MoreHorizIcon 
+                    sx={{ fontSize: 16 }} />
                   </div>
                   <h5>Seth Terkper</h5>
                 </li>
                 <li className="trendsLists__topic" >
                   <div className="trendsListsTopic__header">
                     <p>Trending in Ghana</p>
-                    <MoreHorizIcon />
+                    <MoreHorizIcon 
+                    sx={{ fontSize: 16 }} />
                   </div>
                   <h5>Dampare</h5>
                 </li>

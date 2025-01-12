@@ -35,6 +35,7 @@
 .tweetHeader__userdetails{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .tweet__displayname{
   margin-right: 2px;

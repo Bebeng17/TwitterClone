@@ -5,6 +5,7 @@ import Premium from "./Premium";
 import Live from "./Live"; 
 import WhoToFollow from "./WhoToFollow";
 import Trends from "./Trends";
+import Footer from "./Footer"
 
 
 const Widgets = () => {
@@ -15,6 +16,7 @@ const Widgets = () => {
       <Live />
       <WhoToFollow />
       <Trends />
+      <Footer />
     </div>
 
   );
